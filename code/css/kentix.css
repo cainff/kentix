@@ -1,0 +1,721 @@
+/**Fonts
+font-family: 'Exo 2', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Sans', sans-serif; **/
+
+
+/**Structure de la page**/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hide {
+    display:none;
+}
+
+.don {
+    outline: none;
+    text-decoration: none;
+    color:#cd2929;
+}
+
+
+
+#wrapper {
+    margin: 0 auto;
+}
+
+#header {
+    height: 100px;
+    margin-left: 50px;
+    background-color: rgba(251, 251, 251, 0.2);
+    border-bottom: 1px solid white;
+    position: fixed;
+    z-index: 2;
+}
+
+#bloc1 {
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url('../img/accueil/bloc1/bg1psd.png')
+}
+
+#bloc2 {
+    height: 650px;
+    background-color: #000000;
+}
+
+#bloc3 {
+    height: 550px;
+    background-color: #ffffff;
+}
+
+#bloc4 {
+    height: 500px;
+    background: url('../img/accueil/bloc4/bg4psd.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#bloc4-2 {
+    height:450px;
+    background-color: #cd2929;
+}
+
+#bloc4-3 {
+    height: 450px;
+    background-color: #cd2929;
+}
+
+#bloc5 {
+    background-color: #000000;
+    height: 605px;
+}
+
+#bloc6 {
+    background-color: #cd2929;
+    height: 730px;
+}
+
+#footer {
+    background-color: 1c1c1c;
+    height: 160px;
+}
+
+
+/**Title class**/
+
+.title25 {
+    border:3px solid #ffffff;
+    color:#ffffff;   
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    font-size:22px;
+    padding:5px;
+    letter-spacing: 2px;
+    margin-top:30px;    
+    
+}
+
+.title34 {
+    border:3px solid black;
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+     position: absolute;
+    font-size:22px;
+    padding:5px;
+    letter-spacing: 2px;
+    margin-top:30px;
+
+
+}
+
+.title6 {
+    border:3px solid black;
+    color:#ffffff;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+     position: absolute;
+    left:616px;
+    font-size:22px;
+    padding:5px;
+    letter-spacing: 2px;
+    margin-top:30px;
+
+}
+
+/**Centrage Title**/
+#art {
+    left:644px;
+}
+
+#new {
+    left:660px
+}
+
+#so {
+    left:665px;
+}
+
+#cli {
+    left:660px;
+}
+
+/**Typo**/
+
+.nav {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    outline: none;
+    text-decoration: none;
+}
+
+
+
+.title {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 48px;
+    color: #ffffff;
+    text-transform: uppercase;
+    white-space: pre-line;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+
+/**H3 class**/
+
+.bloc256 {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 2px;
+}
+
+.bloc34 {
+    color: #000000;
+    border: 2px solid #000000;
+    padding: 2px;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+/** Typo Class**/
+
+.bloc61 {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color:#ffffff;
+    text-transform: uppercase;
+    position: relative;
+    top:125px;
+    
+}
+
+.bloc62 {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color:#ffffff;
+    text-transform: uppercase;
+    position:relative;
+    top:40px;
+
+
+}
+
+.price {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 72px;
+    color:#ffffff;
+    position:relative;
+    top:75px;
+
+}
+
+.news {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+/**Header**/
+
+.head {
+    margin-left: 20px;
+    height: 100%;
+}
+
+.logoken {
+    width: 160px;
+    height: 100px;
+}
+
+.navbar {
+    position: relative;
+    float: right;
+    padding-top: 50px;
+}
+
+
+a.visited:link {
+    outline: none;
+    text-decoration: none;
+    color:#ffffff;
+}
+
+a.visited:active{
+    outline: none;
+    text-decoration: none;
+    color:#ffffff;
+}
+
+a.visited:visited {
+    outline: none;
+    text-decoration: none;
+    color:#ffffff;
+}
+
+a.visited:hover {
+    outline: none;
+    text-decoration: none;
+    color:#cd2929;
+}
+
+li.nav:hover {
+    color: #cd2929;
+}
+
+
+ul li.nav {
+    display: inline;
+    padding: 70px;
+}
+
+
+
+
+
+
+/**Bloc1**/
+
+.wrapbloc1 {
+    width: 80%;
+    height: 100%;
+}
+
+#punch {
+    POSITION: absolute;
+    top: 383px;
+}
+
+#Kentix {
+    position: relative;
+    float: right;
+    top: 510px;
+    right: 154px;
+}
+
+
+/**Bloc2**/
+
+.bloc2 {
+    width: 90%;
+    height: 100%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 300px;
+    top: 150px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+}
+
+#btn_blc2 {
+    text-align: center;
+    border: solid 12px #b3b3b3;
+    color:#ffffff;
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    float:left;
+    top:255px;
+    left:500px;
+    height: 70px;
+    width: 250px;
+}
+
+
+
+
+/**Bloc3**/
+
+.bloc3 {
+    width: 90%;
+    height: 100%;
+}
+
+.wrapimg {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    float: left;
+    top: 115px;
+    left: 10px;
+    display: inline;
+}
+
+.news {
+    height: 300px;
+    width: 412px;
+    
+}
+
+
+
+
+.pos {
+    position: relative;
+    display: inline-block;
+}
+
+#container1 {
+    height: 300px;
+    width: 412px;
+    background-color:rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    z-index: 16;
+    
+}
+#container2 {
+    height: 300px;
+    background-color:rgba(0, 0, 0, 0.1);
+    width: 412px;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+
+}
+#container3 {
+    height: 300px;
+    width: 412px;
+    background-color:rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+#imgbloc2-1 {
+    z-index: 6;
+    display: block;
+    width: 100%;
+}
+
+#newscentre {
+    z-index: 12;
+    display: block;
+    width: 100%;
+}
+
+#imgblog23 {
+    display: block;
+    width: 100%;
+}
+
+.news2 {
+    z-index: 6;
+}
+
+.blocanim {
+    position: absolute;
+    width: 100%;
+    top:0px;
+    left:-100%;
+    height: 100%;
+    background-color:rgba(158, 158, 255, 0.5);
+    -webkit-transition:left 0.4s ease-in-out;
+    -moz-transition:left 0.4s ease-in-out;
+    -ms-transition:left 0.4s ease-in-out;
+    -o-transition:left 0.4s ease-in-out;
+    
+
+    
+}
+
+    .tnews {
+        padding-top:50px;
+        font-size: 15px;
+        font-family: 'PT Sans', sans-serif;
+        line-height: 1.5;
+        letter-spacing: 2px;
+        text-align: center;
+        
+        
+    }
+    
+.pos:hover .blocanim {
+    left:0px;
+}
+
+
+/**Bloc4**/
+
+.bloc4 {
+    width: 90%;
+    height: 100%;
+}
+
+.wrapalbum {
+    width: 100%;
+    height: 55%;
+    position: relative;
+    top: 100px;
+}
+
+#album1 {
+    position: relative;
+    float: left;
+}
+
+.cli {
+    font-size:40px;
+    font-weight: bold;
+    font-family:'Open Sans', sans-serif;
+    color:#cd2929;
+    z-index: 2;
+}
+
+#clic1 {
+    position: absolute;
+    top:150px;
+    left:1035px;
+    -webkit-transform: rotate(-30deg);
+
+}
+
+#clic2 {
+    position: absolute;
+    top:150px;
+    left:130px;
+    -webkit-transform: rotate(30deg);
+}
+
+#album2 {
+    position: relative;
+    float: right;
+}
+
+.bbloc4 {
+    border:3px solid #ffffff;
+    color:#cd2929;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    font-family:'Open Sans', sans-serif;
+    white-space: pre-line;
+    position: absolute;
+    text-align: center;
+    left:561px;
+    top:100px;
+    background:rgba(251, 251, 251, 0);
+
+}
+
+#btn {
+    position: absolute;
+    top:280px;
+}
+
+
+/**Bloc4-2**/
+
+#lpdm {
+  
+}
+
+
+/**Bloc5**/
+
+.bloc5 {
+    width: 90%;
+    height: 100%;
+}
+
+#player {
+    position: relative;
+    float:left;
+    left:320px;
+    top:150px;
+}
+
+
+/**Bloc6**/
+
+.bloc6 {
+    width: 90%;
+    height: 100%;
+}
+
+.tab {
+    width: 100%;
+    height: 70%;
+    top: 100px;
+    position: relative;
+}
+
+.band {
+    width: 100%;
+    height: 130px;
+    position: relative;
+    top: -39px;
+}
+
+.but {
+    width: 70%;
+    height: 100px;
+    position: relative;
+    float: left;
+    top: 40px;
+    left: 206px;
+}
+
+.tableau {
+    /**height: 475px;
+    width: 285px;
+    border: 2px solid black;
+    overflow: hidden;**/
+    position: absolute;
+    border: solid 3px black;
+    height: 475px;
+    width: 285px;
+    text-align: center;
+}
+
+#tab1 {
+    left: 150px;
+}
+
+#tab2 {
+    left: 480px;
+}
+
+#tab3 {
+    left: 815px;
+}
+
+.band1 {
+    height: 106px;
+    width: 285px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+#bande1 {
+    position: absolute;
+    left: 152px;
+}
+
+#bande2 {
+    position: absolute;
+    left: 482px;
+}
+
+#bande3 {
+    position: absolute;
+    left: 817px;
+}
+
+.button {
+    border: 4px solid #cd2929;
+    background-color: #ffffff;
+    color: #cd2929;
+    height: 36px;
+    width: 175px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#but1 {
+    margin-right: 153px;
+}
+
+#but2 {
+    margin-right: 158px;
+}
+
+.tabl1 {
+    width: 100%;
+    height:450px;
+}
+
+#but1:hover {
+    background-color: #cd2929;
+    border-color:#ffffff;
+
+}
+
+#but2:hover {
+    background-color: #cd2929;
+    border-color:#ffffff;
+
+}
+
+#but3:hover {
+    background-color:#cd2929;
+    border-color:#ffffff;
+
+}
+
+.don:hover {
+    background-color: #cd2929;
+    color:white;
+}
+
+/**Footer**/
+.foot {
+    height: 100%;
+    width: 20%;
+}
+
+#footer {
+    background-color: #2a2929;
+}
+
+#kentixfoot {
+    width: 100%;
+    height:97%;
+}

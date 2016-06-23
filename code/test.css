@@ -1,0 +1,39 @@
+* {
+    display: block;
+}
+
+#div1 {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+
+#div2 {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+}
+
+#clipkentix {
+    width: 500px;
+    height: 315px;
+}
+
+#fb {
+    width: 350px;
+    height: 650px;
+    border: none;
+    overflow: hidden;
+}
+
+.but {
+    height: 100px;
+    width: 100px;
+}
+
+#vide {
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    display: none;
+}
