@@ -1,0 +1,137 @@
+#contact {
+    height: 1450px;
+    background-color: black;
+}
+
+.social {
+    width: 100%;
+    height: 45%;
+    padding-top:160px;
+}
+
+.wrapcontact {
+    width: 80%;
+    height: 100%;
+}
+
+#punchcontact {
+    POSITION: absolute;
+    top: 383px;
+    letter-spacing: 5px;
+    line-height: 50px;
+
+}
+
+#con{
+    margin-top:50px;
+    margin-left: 450px;
+}
+
+#fb {
+    padding-right: 180px;
+    width: 370px;
+    height: 630px;
+}
+
+.form {
+    height: 40%;
+    width: 100%;
+    padding-top: 70px;
+}
+
+
+/**::-webkit-input-placeholder {
+   color: white;
+    font-style: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+}
+**/
+
+.namemail {
+    height: 60px;
+    width: 360px;
+    border-top: 3px solid white;
+    border-bottom:3px solid white;
+    background-color: rgba(251, 251, 251, 0);
+    color:white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    -webkit-transition:border 1s ease-in-out;
+    -webkit-transition:background 2s ease-in;
+
+}
+
+.namemail:hover {
+    border-left:3px solid white;
+    border-right: 3px solid white;
+    background-color: white;
+    color:black;
+}
+
+
+
+
+#name {
+    
+}
+
+
+
+#email {
+   /** position: relative;
+    float:right;
+    right:227px;**/
+    margin-left:201px;
+}
+
+#message {
+    margin-top: 60px;
+    height: 290px;
+    width: 925px;
+    border-top: 3px solid white;
+    border-bottom:3px solid white;
+    background-color: rgba(251, 251, 251, 0);
+    color:white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    -webkit-transition:border 1s ease-in-out;
+    -webkit-transition:background 2s ease-in;
+}
+
+#message:hover {
+    border-left:3px solid white;
+    border-right: 3px solid white;
+    background-color: white;
+    color:black;
+}
+
+#send {
+    margin-top:30px;
+    width: 145px;
+    height: 45px;
+    display: block;
+    background-color: rgba(251, 251, 251, 0);
+    color:white;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-top: 3px solid white;
+    border-bottom:3px solid white;
+    border-left:0px;
+    border-right:0px;
+     -webkit-transition:border 1s ease-in-out;
+    -webkit-transition:background 2s ease-in;
+       
+}
+
+#send:hover {
+    border-left:3px solid white;
+    border-right: 3px solid white;
+    background-color: white;
+    color:black;
+}
+
+
+
+

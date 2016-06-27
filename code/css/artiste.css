@@ -1,0 +1,38 @@
+#blocartiste {
+    height: 530px;
+    background-color: #D9DDDE;
+}
+
+.classartiste {
+    width: 70%;
+    height: 100%;
+}
+
+.partiste {
+    text-indent:50px;
+    color:black;
+    font-size: 20px;
+    line-height: 35px;
+    white-space: pre-line;
+    text-align: center;
+    padding-top:100px;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 3px;
+}
+
+#punchartiste {
+    POSITION: absolute;
+    top: 295px;
+    letter-spacing: 3px;
+    line-height: 60px;
+
+}
+
+
+
+#Kentixartiste {
+    position: relative;
+    float: right;
+    top: 555px;
+    right: 154px;
+}

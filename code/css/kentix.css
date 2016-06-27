@@ -11,8 +11,19 @@ font-family: 'PT Sans', sans-serif; **/
     padding: 0;
 }
 
-.hide {
-    display:none;
+
+
+#bloc4-2,
+#bloc4-3{
+    transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+    max-height: 1000px;
+    overflow: hidden;
+}
+
+#bloc4-2.hide,
+#bloc4-3.hide {
+    max-height: 0px;
 }
 
 .don {
@@ -50,7 +61,7 @@ font-family: 'PT Sans', sans-serif; **/
 
 #bloc3 {
     height: 550px;
-    background-color: #ffffff;
+    background-color: #D9DDDE;
 }
 
 #bloc4 {
@@ -89,7 +100,8 @@ font-family: 'PT Sans', sans-serif; **/
 /**Title class**/
 
 .title25 {
-    border:3px solid #ffffff;
+    border-bottom:3px solid white;
+    border-top:3px solid white;  
     color:#ffffff;   
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
@@ -98,11 +110,19 @@ font-family: 'PT Sans', sans-serif; **/
     padding:5px;
     letter-spacing: 2px;
     margin-top:30px;    
-    
+    -webkit-transition:border 0.5s ease-in-out;
+}
+
+.title25:hover {
+    border-left:3px solid #cd2929;
+    border-right:3px solid #cd2929; 
+    border-top: 3px solid #cd2929;
+    border-bottom:3px solid #cd2929;
 }
 
 .title34 {
-    border:3px solid black;
+    border-bottom:3px solid black;
+    border-top:3px solid black;
     color:black;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
@@ -111,12 +131,20 @@ font-family: 'PT Sans', sans-serif; **/
     padding:5px;
     letter-spacing: 2px;
     margin-top:30px;
-
+    -webkit-transition:border 0.5s ease-in-out;
 
 }
 
+.title34:hover{
+     border-left:3px solid #cd2929;
+    border-right:3px solid #cd2929; 
+    border-top: 3px solid #cd2929;
+    border-bottom:3px solid #cd2929;
+}
+
 .title6 {
-    border:3px solid black;
+    border-bottom:3px solid black;
+    border-top:3px solid black;    
     color:#ffffff;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
@@ -126,7 +154,14 @@ font-family: 'PT Sans', sans-serif; **/
     padding:5px;
     letter-spacing: 2px;
     margin-top:30px;
+    -webkit-transition:border 0.5s ease-in-out;
+}
 
+.title6:hover {
+    border-left:3px solid white;
+    border-right:3px solid white;
+    border-top:3px solid white;
+    border-bottom:3px solid white;
 }
 
 /**Centrage Title**/
@@ -156,6 +191,7 @@ font-family: 'PT Sans', sans-serif; **/
     outline: none;
     text-decoration: none;
 }
+
 
 
 
@@ -269,6 +305,7 @@ p {
     position: relative;
     float: right;
     padding-top: 50px;
+    
 }
 
 
@@ -305,6 +342,27 @@ ul li.nav {
     display: inline;
     padding: 70px;
 }
+
+ul li a {
+    -moz-transition: all .5s; 
+    -webkit-transition: all .5s; 
+    -o-transition: all .5s; 
+    transition: all .5s;
+}
+
+ul li a:hover {
+  
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    margin-left: 5px;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+   
+}
+
+
 
 
 
@@ -469,7 +527,7 @@ ul li.nav {
     top:0px;
     left:-100%;
     height: 100%;
-    background-color:rgba(158, 158, 255, 0.5);
+    background-color:rgba(18, 5, 4, 0.5);
     -webkit-transition:left 0.4s ease-in-out;
     -moz-transition:left 0.4s ease-in-out;
     -ms-transition:left 0.4s ease-in-out;
@@ -564,11 +622,6 @@ ul li.nav {
 }
 
 
-/**Bloc4-2**/
-
-#lpdm {
-  
-}
 
 
 /**Bloc5**/
@@ -672,6 +725,8 @@ ul li.nav {
     font-size: 23px;
     font-weight: bold;
     text-transform: uppercase;
+    -webkit-transition:background 0.4s ease-in;
+
 }
 
 #but1 {

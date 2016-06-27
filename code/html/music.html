@@ -1,13 +1,106 @@
-<doctype html!>
+<!doctype html>
 <html>
+
 <head>
-<meta charset=utf-8>
-<title>Music</title>
-</head>
-<body>
-    <h1>Music</h1>
+    <meta charset=utf-8>
+    <title>Accueil</title>
     
+    <!--jQuery-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+   
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="../css/kentix.css" />
+    <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../css/contact.css">
+   
+
+    <!--Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Exo+2:400,100,100italic,200,200italic,300,300italic,400italic,500,500italic,600,700,600italic,700italic,800' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300italic,300,600,600italic,700,800' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+    <!--Swiper-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+
+    <link rel="stylesheet" href="../css/swiper.min.css">
+
+
+
+</head>
+
+<body>
+    <!-- <h1>Kentix</h1>
     <a href="artiste.html">Artiste</a>
-    <a href="kentix.html">Home</a>
-</body>    
+    <a href="music.html">Music</a> -->
+
+    <!--Header + Bloc 1 -->
+
+    <div id="bloc1">
+        <div id="header">
+            <div id="wrapper" class="head">
+               <a href="accueil"> <img class="logoken" src="../img/accueil/header/logokentix.png">
+                </a>
+
+                <ul class="navbar">
+                    <li class="nav"><a class="visited" href="accueil#bloc2">L'artiste</a></li>
+                    <li class="nav"><a class="visited" href="accueil#bloc3">News</a></li>
+                    <li class="nav"><a class="visited" href="accueil#bloc4">Sons</a></li>
+                    <li class="nav"><a class="visited" href="accueil#bloc5">Clip</a></li>
+                    <li class="nav"><a class="visited" href="accueil#bloc6">Aidez nous</a></li>
+                    <li class="nav"><a class="visited" href="music">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="wrapper" class="wrapbloc1">
+
+            <h1 class="title" id="punchcontact">"L'amour n'est qu'un doux leurre
+            mais j'en deviens nostalgique"</h1>
+            <h1 class="title" id="Kentix">Kentix</h1>
+
+        </div>
+    </div>
+
+    <!--Bloc Contact -->
+   <div id="contact">
+       <div id="wrapper" class="wrapcontact">
+         
+                <h2 id="con" class="title25">Contactez Nous</h2>
+
+          <div id="wrapper" class="social">
+              <iframe id="fb" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FKentix-116468231813640%2F%3Ffref%3Dts&tabs=timeline%2C%20events%2C%20messages&width=370&height=630&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+              
+              <a class="twitter-timeline" data-lang="fr" data-width="370" data-height="630" href="https://twitter.com/Kentix_Art">Tweets by Kentix_Art</a>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+              
+          </div>
+           
+           
+           <div id="wrapper" class="form">
+           <!--Formulaire-->
+           <input id="name" class="namemail" type="text"  placeholder="NOM">
+           <input id="email" class="namemail" type="text"  placeholder="E-MAIL">
+           <input id="message" type="text" name="" placeholder="MESSAGE">
+           
+            <button id="send">Envoyez</button> 
+           </div>
+       </div>
+   </div>
+
+    <!--Footer -->
+    <div id="footer">
+        <div id="wrapper" class="foot">
+            <img id="kentixfoot" src="../img/accueil/footer/logokentixpsd.png">
+        </div>
+        
+    </div>
+    <script src="../js/kentix.js"></script>
+
+
+</body>
+
 </html>
