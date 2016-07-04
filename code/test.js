@@ -54,4 +54,53 @@ $(document).ready(function () {
 });
 
 
-// Youtube // 
+// play // 
+
+
+var xmlns = "http://www.w3.org/2000/svg",
+  xlinkns = "http://www.w3.org/1999/xlink",
+  select = function(s) {
+    return document.querySelector(s);
+  },
+  selectAll = function(s) {
+    return document.querySelectorAll(s);
+  }
+
+
+TweenMax.set('svg', {
+  visibility: 'visible'
+})
+
+var tl = new TimelineMax({repeat:0, paused:true});
+tl.to('#playLeft', 1, {
+  drawSVG:'16%" 84%',
+  x:5,
+  //strokeWidth:40,
+  //ease:Elastic.easeOut.config(0.5, 0.5)
+  ease:Expo.easeInOut
+})
+.to('#playRight', 1, {
+  morphSVG:{shape:'#pauseRight'},
+  x:5,
+  //strokeWidth:40,
+  //ease:Elastic.easeOut.config(0.5, 0.5)
+  ease:Expo.easeInOut
+},'-=1')
+
+/* .to('#whole', 1, {
+  rotation:'+=180',
+  transformOrigin:'50% 50%',
+  //ease:Back.easeInOut.config(0.3)
+  ease:Expo.easeInOut
+},'-=1') */
+
+tl.timeScale(1.62)
+//ScrubGSAPTimeline(tl)
+select('#outline').onclick = function(e){
+  
+  if(tl.progress() > 0){
+    tl.reverse();
+  } else{
+    tl.play()
+  }
+}

@@ -1,5 +1,5 @@
 #blocartiste {
-    height: 530px;
+     height: 455px;
     background-color: #D9DDDE;
 }
 
@@ -15,7 +15,7 @@
     line-height: 35px;
     white-space: pre-line;
     text-align: center;
-    padding-top:100px;
+    padding-top:55px;
     font-family: 'PT Sans', sans-serif;
     letter-spacing: 3px;
 }

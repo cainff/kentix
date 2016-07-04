@@ -14,6 +14,15 @@ function dom_init(){
 predom_init();
 
 
+$(document).ready(function() {
+		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 750; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+	});
+
 
         var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
@@ -125,7 +134,7 @@ function soundcl(){
 };
 
 
-var music=document.getElementById('album2');
+var music=document.getElementById('play1');
     music.addEventListener('click',soundcl); 
 
 
@@ -138,5 +147,6 @@ function soundcl2(){
 };
 
 
-var music=document.getElementById('album1');
+var music=document.getElementById('play2');
     music.addEventListener('click',soundcl2); 
+
