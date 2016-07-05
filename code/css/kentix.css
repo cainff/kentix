@@ -810,7 +810,6 @@ ul li a:hover {
 
 .song:hover {
     background-color: red;
-    transform: rotate(360deg);
     padding: 5px;
 }
 
